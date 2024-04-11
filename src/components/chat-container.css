@@ -1,0 +1,43 @@
+.first-chat {
+  margin-top: 80px;
+  margin-left: 20px;
+}
+.chat-content-1 {
+  width: 300px;
+  background-color: #e5eeff;
+  border-radius: 15px;
+  padding: 5px 5px 5px 20px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.time {
+  font-weight: 400;
+  line-height: 15px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.second-chat {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.chat-content-2 {
+  width: 300px;
+  background-color: #dcf7c5;
+  border-radius: 15px;
+  padding: 20px 5px 20px 20px;
+
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 19.5px;
+  margin-bottom: 0px;
+  margin-right: 20px;
+}
+.time2 {
+  margin-right: 30px;
+}

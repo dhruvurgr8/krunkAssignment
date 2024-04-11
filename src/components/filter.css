@@ -1,0 +1,81 @@
+.select-filter {
+  display: flex;
+  justify-content: space-between;
+}
+.filter-wrapper {
+  margin: 0 20px 0 20px;
+}
+.filter-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: #666666;
+  font-size: 18px;
+}
+.select {
+  color: #949494;
+  font-size: 18px;
+}
+.btn-wrapper button {
+  background-color: #f4f4f4;
+  border: none;
+  padding: 5px 15px;
+  margin: 10px 10px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: grey;
+}
+.active {
+  color: #4c82ef !important;
+  border: 2px solid #4c82ef !important;
+}
+.inp-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.inp-btn input {
+  border: none;
+  width: 470px;
+  padding: 5px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  font-size: 25px;
+}
+.inp-btn button {
+  border: none;
+  background-color: #4c82ef;
+  padding: 0 20px;
+  border-radius: 10px;
+  color: white;
+}
+.icon {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+  color: grey;
+}
+.icon-align {
+  position: relative;
+}
+.krunk {
+  color: #b1b1b1;
+  text-align: center;
+  font-size: 20px;
+}
+.krunk-span {
+  color: #7a7f8c;
+}
+@media screen and (max-width: 630px) {
+  .wrapper {
+    width: 100%;
+  }
+  .inp-btn input {
+    width: 380px;
+  }
+}
+.wrap {
+  background-color: #e5eeff;
+  padding: 10px;
+  border-radius: 20px;
+}
